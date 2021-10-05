@@ -1,5 +1,4 @@
 -- PLEASE REVIEW README FOR DETAILS --
--- THIS IS PRACTICE CODES (REFERENCE: YOUTUBE VIDEO FOR DATA ANALYST PORTFOLIO PROJECT) --
 
 -- 1. BASIC SELECT
 -- Comment: .. omits the middle part within the full address
