@@ -149,14 +149,14 @@ from populVSVac_cte
 
 DROP TABLE IF EXISTS #percentppvaccinated
 CREATE TABLE #percentppvaccinated 
-(
-continent nvarchar(255),
-location nvarchar(255),
-date datetime,
-population numeric,
-new_vaccination numeric,
-running_total numeric
-) -- STEP 1: Create
+	(
+	continent nvarchar(255),
+	location nvarchar(255),
+	date datetime,
+	population numeric,
+	new_vaccination numeric,
+	running_total numeric
+	) -- STEP 1: Create
 
 INSERT INTO #percentppvaccinated 
 SELECT dea.continent, 
