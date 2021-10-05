@@ -177,7 +177,7 @@ FROM #percentppvaccinated
 ;
 
 -- 14. CREATE VIEW TO STORE DATA FOR LATER USE.
-CREATE view percentppvaccinated AS
+CREATE VIEW percentppvaccinated AS
 
 	SELECT dea.continent, 
 		dea.location, 
