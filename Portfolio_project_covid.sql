@@ -69,7 +69,7 @@ ORDER BY TotalDeathCount DESC
 
 -- 8. CONTINENT WITH HIGHTEST DATE COUNTS
 -- NEEDS REVIEW: WHERE continent IS NOT NULL
-SELECT continent, sum(max(cast(total_deaths AS INT))) AS final
+SELECT continent, SUM(MAX(CAST(total_deaths AS INT))) AS final
 FROM PortfolioProject..CovidDeaths
 GROUP BY continent
 ;
