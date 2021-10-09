@@ -1,4 +1,3 @@
--- PLEASE REVIEW README FOR DETAILS --
 
 -- 1. BASIC SELECT
 -- Comment: .. omits the middle part within the full address
