@@ -1,6 +1,7 @@
 FIELD NAME          TYPE          MODE           DESCRIPTION
 continent           STRING	    Nullable	    Continent of the geographical location
 location            STRING	    Nullable	    Geographical location (country)
+date            DATE	    Required	    Date of observation
 date                DATE        Required      Date of observation
 total_cases         STRING	    Nullable	    Total confirmed cases of COVID-19
 new_cases           NUMERIC	    Nullable	    New confirmed cases of COVID-19
