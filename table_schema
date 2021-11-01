@@ -1,4 +1,4 @@
-FIELD NAME          TYPE          MODE           DESCRIPTION
+FIELD NAME          TYPE            MODE            DESCRIPTION
 continent           STRING	    Nullable	    Continent of the geographical location
 location            STRING	    Nullable	    Geographical location (country)
 date                DATE            Required	    Date of observation
