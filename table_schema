@@ -9,3 +9,5 @@ new_deaths          NUMERIC	    Nullable	    New deaths attributed to COVID-19
 population          NUMERIC	    Nullable	    Population in 2020
 new_vaccinations    NUMERIC	    Nullable	    New COVID-19 vaccination doses administered (only calculated for consecutive days)
 
+** Above list containts the information of the data used in this SQL project.
+** Dataset can be reivewed here: https://github.com/owid/covid-19-data/tree/master/public/data
