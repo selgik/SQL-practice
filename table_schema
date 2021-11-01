@@ -1,6 +1,6 @@
 Field Name          Type	      Mode	        Description
-continent	          STRING	    Nullable	    Continent of the geographical location
-location	          STRING	    Nullable	    Geographical location (country)
+continent           STRING	    Nullable	    Continent of the geographical location
+location            STRING	    Nullable	    Geographical location (country)
 date	              DATE	      Required	    Date of observation
 total_cases	        STRING	    Nullable	    Total confirmed cases of COVID-19
 new_cases	          NUMERIC	    Nullable	    New confirmed cases of COVID-19
@@ -8,4 +8,3 @@ total_deaths	      NUMERIC	    Nullable	    Total deaths attributed to COVID-19
 new_deaths	        NUMERIC	    Nullable	    New deaths attributed to COVID-19
 population	        NUMERIC	    Nullable	    Population in 2020
 new_vaccinations    NUMERIC	    Nullable	    New COVID-19 vaccination doses administered (only calculated for consecutive days)
-
