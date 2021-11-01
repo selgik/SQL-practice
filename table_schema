@@ -1,4 +1,3 @@
-
 Field Name        Type	      Mode	        Description
 continent	        STRING	    Nullable	    Continent of the geographical location
 location	        STRING	    Nullable	    Geographical location (country)
