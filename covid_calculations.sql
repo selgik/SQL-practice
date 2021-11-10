@@ -46,7 +46,7 @@ ORDER BY md DESC
 -- (NEED TO REVIEW) WHY THIS CODE DOESN'T WORK?
 -- SELECT continent, sum(cast(total_deaths AS int)) AS TotalDeathCount
 -- FROM PortfolioProject..CovidDeaths
--- WHERE continent IS NOT NULL <--Or should be HAVING after GROUP BY?
+-- WHERE continent IS NOT NULL
 -- GROUP BY continent 
 -- ORDER BY TotalDeathCount DESC
 
