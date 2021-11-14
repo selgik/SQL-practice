@@ -1,5 +1,5 @@
 # SQL query practices:
-## covid_calculations.sql contains:
+## CODE LIST contains:
     SELECT, AS, MAX, LIKE, NULL, WHERE, ORDER BY, GROUP BY, CAST, CONVERT, 
     PARTITION BY, JOIN, CTE, TEMP TABLE, DROP, CREATE, INSERT, VIEW
 ## Additional Documents:
