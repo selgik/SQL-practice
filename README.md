@@ -6,7 +6,6 @@
 ## Codes
     SELECT, AS, MAX, LIKE, NULL, WHERE, ORDER BY, GROUP BY, CAST, CONVERT, 
     PARTITION BY, JOIN, CTE, TEMP TABLE, DROP, CREATE, INSERT, VIEW
-## Data source
+## Data source & Credits
     Our World in Data - Coronavirus (COVID-19) Deaths
-## Credit
     Alex The Analyst (YouTube)
