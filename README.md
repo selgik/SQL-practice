@@ -4,7 +4,7 @@
     PARTITION BY, JOIN, CTE, TEMP TABLE, DROP, CREATE, INSERT, VIEW
 ## Additional Document:
     table_schema
-## Reference:
+## Others:
     Tool: SQL Server Management Studio 
     Data source: Our World in Data - Coronavirus (COVID-19) Deaths
     Credit: Alex The Analyst (YouTube)
