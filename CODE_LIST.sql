@@ -6,7 +6,7 @@ FROM PortfolioProject..CovidDeaths
 
 -- 2. REVIEW DEATH RATE
 -- Comment (1): '%???%' enter the country name and run query.
--- Comment (2): order by 1,2 <-- numbers represents the column.
+-- Comment (2): order by 1,2 <-- numbers represent the column.
 SELECT location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 AS Death_Perc
 FROM PortfolioProject..CovidDeaths
 WHERE location LIKE '%singapore%'
