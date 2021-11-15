@@ -19,4 +19,5 @@ date                DATE            Required	    Date of observation
 new_vaccinations    INTEGER	    Nullable	    New COVID-19 vaccination doses administered (only calculated for consecutive days)
 
 
+*** REFERENCE: https://github.com/owid/covid-19-data/tree/master/public/data
 - END -
