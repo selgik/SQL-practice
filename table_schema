@@ -1,4 +1,5 @@
-Table 1:
+Table 1: CovidDeaths
+-------------------------------------------------------------------------------------
 FIELD NAME          TYPE            MODE            DESCRIPTION
 continent           STRING	    Nullable	    Continent of the geographical location
 location            STRING	    Nullable	    Geographical location (country)
@@ -9,9 +10,13 @@ total_deaths        INTEGER	    Nullable	    Total deaths attributed to COVID-19
 new_deaths          INTEGER	    Nullable	    New deaths attributed to COVID-19
 population          INTEGER	    Nullable	    Population in 2020
 
-Table 2:
+
+Table 2: Vaccination
+-------------------------------------------------------------------------------------
 FIELD NAME          TYPE            MODE            DESCRIPTION
 location            STRING	    Nullable	    Geographical location (country)
 date                DATE            Required	    Date of observation
 new_vaccinations    INTEGER	    Nullable	    New COVID-19 vaccination doses administered (only calculated for consecutive days)
 
+
+- END -
