@@ -1,3 +1,4 @@
+Table 1:
 FIELD NAME          TYPE            MODE            DESCRIPTION
 continent           STRING	    Nullable	    Continent of the geographical location
 location            STRING	    Nullable	    Geographical location (country)
@@ -7,7 +8,10 @@ new_cases           INTEGER	    Nullable	    New confirmed cases of COVID-19
 total_deaths        INTEGER	    Nullable	    Total deaths attributed to COVID-19
 new_deaths          INTEGER	    Nullable	    New deaths attributed to COVID-19
 population          INTEGER	    Nullable	    Population in 2020
+
+Table 2:
+FIELD NAME          TYPE            MODE            DESCRIPTION
+location            STRING	    Nullable	    Geographical location (country)
+date                DATE            Required	    Date of observation
 new_vaccinations    INTEGER	    Nullable	    New COVID-19 vaccination doses administered (only calculated for consecutive days)
 
-** Above list containts the information of the data used in this SQL project.
-** Dataset can be reivewed here: https://github.com/owid/covid-19-data/tree/master/public/data
